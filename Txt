@@ -4,13 +4,13 @@ import java.util.Random;
 
 public class Mainowa {
 
-	static int max = 300;
-	static int liczbaAplikacji =100;
-	static int liczbaSekwencji = 1;
-	static int maxCzasZgloszenia = 50;
-	static int maxDeadline = 200; 
+	static int max = 300; //liczba cylindrow
+	static int liczbaAplikacji = 100; //liczba zgloszen do dysku
+	static int liczbaSekwencji = 1; //liczba powtorzeń dla maina
+	static int maxCzasZgloszenia = 50;  // maksymalny czas zgloszenia 
+	static int maxDeadline = 200; // maksymalny deadline dla realTimeApp
 	static int pozGlowicy = 0;
-	static int realTimeApp = 0;
+	static int realTimeApp = 0; 
 
 	private static Aplikacja[] stworz() {
 		Aplikacja[] tablica = new Aplikacja [liczbaAplikacji];
