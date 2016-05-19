@@ -1,2 +1,2 @@
-# JavaReflection
-desc
+# Panowanie dostepu
+opis
